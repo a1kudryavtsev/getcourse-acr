@@ -1,3 +1,14 @@
-.page-full-block {
-	background-color: rebeccapurple;
+:root {
+	--white: #ffffff;
+	--violet: #783db9;
+	--black: #000000;
+	--dark-blue: #00002b;
+	--light-blue: #5cc9e6;
+	--blue: #1c57bb;
+	--green: #74f5b0;
+}
+
+body {
+	background-color: var(--dark-blue);
+	color: var(--white);
 }
